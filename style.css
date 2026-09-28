@@ -1,0 +1,164 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, cursive;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    font-weight:bold;
+}
+
+.icon li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:white;
+    border:1px solid whitesmoke;
+}
+.dropdown li{
+    padding:20px;
+    list-style:none;
+}
+.explore {
+    position: relative;
+}
+.companies {
+    position: relative;
+}
+
+.pro{
+    background-color:rgb(62 84 163);
+    color:white;
+    padding:5px;
+    border-radius:5px;
+}
+
+.get-btn{
+    background-color:black;
+    color:white;
+    padding: 15px;
+    border-radius:15px;
+    border:none;
+    font-weight:bold;
+
+}
+.get-btn i {
+    font-size: 18px;
+}
+
+.hero-section{
+    text-align:center;
+    padding:20px;
+    font-size:20px;
+}
+
+.hero-section h1{
+    color:rgb(62 84 163);
+}
+
+.hero-section p{
+    color:#737373;
+}
+
+.main-container{
+    background-color: white;
+
+}
+
+.start-btn{
+    background-color:#e11d48;
+    color:white;
+    Padding:20px;
+    border-radius:15px;
+    border:none;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.community-section{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.community-section img {
+    width: 190px;
+}
+
+.community-section p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.community-section p span {
+    color: rgb(62, 84, 163);
+    font-weight: bold;
+}
+
+.mini-section{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.min-section{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.card-section{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.card-section p{
+    font-size:20px;
+}
